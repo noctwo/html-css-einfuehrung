@@ -1,0 +1,45 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: red;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-clr{
+    background-image: url(assets/img/fiat500.jpg);
+}
+
+.bg-clr:hover{
+    border: 10px double cyan;
+}
+
+.bg-img{
+    background-image: url(assets/img/seagull.jpg);
+}
+
+.bg-img:hover{
+    filter: grayscale(1);
+}
+
+.bg-gdt{
+    background-image: url(assets/img/cam.jpg);
+}
+
+.bg-gdt:hover{
+    border: 10px solid #fff;
+    border-radius: 50%;
+}

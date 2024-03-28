@@ -1,0 +1,14 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/img/photo-1589652717521-10c0d092dea9.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

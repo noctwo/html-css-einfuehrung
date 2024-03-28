@@ -1,0 +1,30 @@
+:root{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, .wrapper{
+    text-align: center;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.bg-clr{
+    background-color: #ffd500;
+}
+
+.bg-img{
+    background-image: url(assets/img/cody-gallo-_3YrPydGryk-unsplash.jpg);
+    background-size: 90%;
+}
+
+.bg-gdt{
+    background-image: linear-gradient(to right top, #051937, #622f65, #c34268, #ff7d44, #ffd500);
+}
